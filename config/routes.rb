@@ -1,4 +1,9 @@
 Sandbox::Application.routes.draw do
+  get 'about' => 'pages#about'
+  get 'projects' => 'pages#projects'
+  
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
