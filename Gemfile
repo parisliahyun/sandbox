@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
     gem 'rails', '3.2.12'
     gem 'jquery-rails'
-    gem 'refinerycms', '~> 2.0.0'
 
 group :production do
     gem 'pg'
