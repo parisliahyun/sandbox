@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
     gem 'rails', '3.2.12'
     gem 'jquery-rails'
+    gem "paperclip", "~> 3.0"
+    #gem 'refinerycms'
+
 
 group :production do
     gem 'pg'
