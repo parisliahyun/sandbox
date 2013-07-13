@@ -1,7 +1,7 @@
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
-		 
+
 			<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 				<span class="icon-bar"></span>
@@ -10,16 +10,17 @@
 			</a>
 			 
 			<!-- Be sure to leave the brand out there if you want it shown -->
-	        <a class="brand" href="home.html"><img src="https://lh3.googleusercontent.com/S-a8hMonVP8AtlsR4xDC_ZqwCZoL0gKvuTZ21OS7n16VJijUFpfq2mu6Mfqqtp5hIBjHVQj2kbL2-LZlIn1VHIjO60faCfBADBrIDFQ_-fg63DvOyDz8N5mb"></a>
+			<%= link_to "SANDBOX", root_path, class: "brand" %>
 			 
 			<!-- Everything you want hidden at 940px or less, place within here -->
-			<div class="nav-collapse collapse">
-				<ul class="nav">
-					<li><%= link_to "Home", root_path %></li>
-					<li><%= link_to "About", about_path %></li>
-					<li><%= link_to "Projects", projects_path %></li>
-				</ul>
-			</div>
+
+				<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li><%= link_to "HOME", root_path %></li>
+							<li><%= link_to "ABOUT", about_path %></li>
+							<li><%= link_to "PROJECTS", projects_path %></li>
+						</ul>
+				</div>
 		</div>
 	</div>
 </div>

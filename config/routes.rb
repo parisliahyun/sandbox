@@ -1,8 +1,14 @@
 Sandbox::Application.routes.draw do
+
   get 'about' => 'pages#about'
   get 'projects' => 'pages#projects'
   
   root :to => 'pages#home'
+
+  ComfortableMexicanSofa::Routing.admin(:path => '/cms-admin')
+
+  # Make sure this routeset is defined last
+  ComfortableMexicanSofa::Routing.content(:path => '/', :sitemap => false)
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
