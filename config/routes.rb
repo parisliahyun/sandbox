@@ -2,6 +2,7 @@ Sandbox::Application.routes.draw do
 
   get 'about' => 'pages#about'
   get 'projects' => 'pages#projects'
+  get 'getinfo' => 'pages#getinfo'
   
   root :to => 'pages#home'
 

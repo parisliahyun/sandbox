@@ -8,4 +8,7 @@ class PagesController < ApplicationController
   def projects
   end
 
+  def getinfo
+  end
+
 end

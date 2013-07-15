@@ -17,7 +17,7 @@ body{
 }
 
 div.navbar div.navbar-inner ul.nav a:hover {
-    color: #FFFFFF !important; 
+    color: #ddc92a !important; 
 }
 
 div.navbar .nav > li > a {
@@ -36,6 +36,14 @@ div.navbar .nav > li > a {
 .navbar .brand{
   color:#FFFFFF !important;
   padding: 1.3rem 1rem !important;
+}
+
+.links {
+  text-decoration: none !important;
+  color: #000000;
+  &:hover {
+  color: #ddc92a;
+  }
 }
 
 .footer{
