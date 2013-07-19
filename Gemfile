@@ -4,6 +4,7 @@ source 'https://rubygems.org'
     gem 'jquery-rails'
     gem "paperclip", "~> 3.0"
     #gem 'refinerycms'
+    # ruby '2.0.0'
 
 
 group :production do
@@ -19,4 +20,5 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'bootstrap-sass', '~> 2.2.2.0'
+
 end
