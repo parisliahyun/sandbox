@@ -13,6 +13,7 @@ end
 
 group :development, :test do
     gem 'sqlite3'
+    gem "rspec", "~> 2.14.1"
 end
 
 group :assets do
