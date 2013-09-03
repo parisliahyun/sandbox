@@ -6,6 +6,7 @@ source 'https://rubygems.org'
     ruby '1.9.3'
     #gem 'refinerycms'
     gem 'rails_12factor'
+    gem 'metamagic'
 
 
 group :production do
